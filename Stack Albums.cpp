@@ -1,3 +1,4 @@
+//vidya
 #include <iostream>
 #include <conio.h>
 #include <stack>
@@ -18,4 +19,12 @@ int harga[]= {275000, 320000, 289000, 312000, 278000, 315000, 273000, 326000, 26
 
 int main(){
 	
+}
+//wirda
+void print(stack<int> x){ //berfungsi untuk mencetak stack
+    stack<int> xy = x;
+	  while (!xy.empty()) {
+        cout << ">> "<< album[xy.top() - 1]<<endl; cout << "   Harga:  Rp. " << harga[xy.top() - 1] << endl;
+        xy.pop();
+    }
 }
